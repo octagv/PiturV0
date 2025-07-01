@@ -1,0 +1,15 @@
+MAIN:
+#Esto es un comentario
+    ADDLW 20
+    SUMLW 30
+    ADDWR 20
+    NOP
+    NOP
+END
+
+FUN:
+    ADDLW 20 
+    SUMLW 30
+    ADDWR 2
+    IF 6 3
+END
