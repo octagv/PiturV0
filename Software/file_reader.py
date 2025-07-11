@@ -3,6 +3,9 @@ class FileReader():
         if not isinstance(filename, str):
             raise TypeError("filename must be a string")
         self.__file = open(filename, "r")
+    def __iter__(self):
+        for line in self.__file:
+            yield line
     def iter_line(self):
         for line in self.__file:
             yield line

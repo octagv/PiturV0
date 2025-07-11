@@ -1,4 +1,4 @@
-from instruction import *
+from .instruction import *
 instruction_set = {
     #INTRUCCIONES DE LITERAL
     "ADDLW": LiteralInstruction(0),

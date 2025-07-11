@@ -11,5 +11,19 @@ FUN:
     ADDLW 20 
     SUMLW 30
     ADDWR 2
-    IF 6 3
+    IF 6 2
+END
+
+FUN_2:
+    ADDLW 20 
+    SUMLW 30
+    ADDWR 2
+    IF 6 2
+END
+
+FUN_3:
+    ADDLW 20 
+    SUMLW 30
+    ADDWR 2
+    IF 6 2
 END
